@@ -1,0 +1,1831 @@
+.whole {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  background-color: rgb(247, 247, 247);
+  animation: backgroundSlideshow 40s infinite;
+}
+
+@keyframes backgroundSlideshow {
+  0%, 20% {
+    background-image: url("https://www.wallpapertip.com/wmimgs/36-362438_abstract-triangle-background-hd.jpg");
+  }
+
+  20%, 40% {
+    background-image: url("https://www.wallpapertip.com/wmimgs/27-272945_design-shape-photoshop.jpg");
+  }
+
+  40%, 60% {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.wallpapersafari.com%2F29%2F92%2FSKB8qR.jpg&f=1&nofb=1&ipt=61aebf0155de45a144cc6cc518a1e3765db2abbbb9d90b41b2441485c604fb57&ipo=images");
+  }
+
+  60%, 80% {
+    background-image: url("https://wallpapercosmos.com/w/full/7/9/a/1196091-3840x2160-desktop-4k-triangle-wallpaper.jpg");
+  }
+
+  80%, 100% {
+    background-image: url("https://img.freepik.com/premium-photo/free-background-laser-light-room-neon-light-stage-tech-style-floor-wall-3d-illustration_357568-3947.jpg");
+  }
+}
+
+
+
+.parent_wrapper {
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 97vw;
+  padding-left: 2%;
+  padding-right: 0%;
+  padding-bottom: 8vh;
+}
+
+.tabber p {
+  background-color: rgba(0, 0, 0, 0.419);
+  padding: 1px;
+  border-radius: 0.35rem;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+
+}
+
+.tabber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-color: rgb(233, 233, 233);
+  border-radius: 0.35rem;
+  padding: 20px;
+  background-color: #3b3b3bde;
+  background-image: url("https://cdn.wallpapersafari.com/42/78/89WhXU.jpg");
+  background-position: center top 80px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: 1s;
+
+}
+
+.tabber:hover {
+  background-color: #3b3b3b;
+  background-blend-mode: soft-light;
+  transition: 1s;
+}
+
+
+/*
+
+.tabber::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(69, 69, 69);
+  z-index: 0;
+  border-radius: inherit;
+}
+
+*/
+
+.tabber {
+  background-color: #898989ba;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 1vh;
+}
+
+
+.body_list {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.logo {
+  border-radius: 50%;
+  border-width: 2px;
+  border-color: rgb(224, 175, 0);
+  height: 50px;
+  width: 50px;
+  transition: 0.4s;
+  margin-bottom: 5vh;
+  margin-top: 1vh;
+}
+
+.my_logo {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  height: 100%;
+  width: 100%;
+
+}
+
+.visualstudio_logo {
+  margin-left: 0vw;
+  margin-right: 0vw;
+  height: 100%;
+  width: 100%;
+
+}
+
+.photoshop_logo {
+  margin-left: 0vw;
+  margin-right: 0vw;
+  height: 100%;
+  width: 100%;
+
+}
+
+.soundcloud_logo {
+  margin-left: 0vw;
+  margin-right: 0vw;
+  height: 100%;
+  width: 100%;
+
+}
+
+.upwork_logo {
+  margin-left: 0vw;
+  margin-right: 0vw;
+  height: 100%;
+  width: 100%;
+
+}
+
+.prisma_logo {
+  margin-left: 0vw;
+  margin-right: 0vw;
+  height: 100%;
+  width: 100%;
+
+}
+
+
+.logo:hover {
+  transition: 0.4s;
+  border-color: #ffa200;
+  transform: scale(1.1);
+  border-color: #ffa200;
+  box-shadow: 0px 0px 10px #be7800;
+}
+
+.avatar_image {
+  border-radius: 50%;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  height: 150px;
+  width: 150px;
+  transition: 0.4s;
+}
+
+.avatar_image:hover {
+  transition: 0.4s;
+  transform: scale(1.1);
+  border-color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 10px #ffffff;
+}
+
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.description {
+  color: rgb(233, 233, 233);
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.description p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.tabber_buttons {
+  justify-content: center;
+  display: flex;
+  gap: 15px;
+}
+
+
+.credentials {
+  display: flex;
+  justify-content: space-between;
+  gap: 3px;
+  width: 50vw;
+
+}
+
+.services_more_button {
+  font-size: 13px;
+  width: 90px;
+  white-space: nowrap;
+  color: #000000;
+  transition: 0.4s;
+  padding: 5px;
+  border-radius: 0.35rem;
+  border-width: 1px;
+  border-color: #835300;
+  background: linear-gradient(to right, #865500, #ffa200);
+}
+
+.services_more_button:hover {
+  color: #ffffff;
+  background-color: #ffa200;
+  transition: 0.4s;
+  border-color: #613e00;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px #be7800;
+
+
+}
+
+
+.prices_more_button {
+  font-size: 13px;
+  width: 90px;
+  white-space: nowrap;
+  transition: 0.4s;
+  color: #000000;
+  background: linear-gradient(to right, #00727a, #00b0bc);
+  padding: 5px;
+  border-radius: 0.35rem;
+  border-width: 1px;
+  border-color: #00727a;
+}
+
+.prices_more_button:hover {
+  color: #ffffff;
+  transition: 0.4s;
+  background-color: #008c96;
+  border-radius: 0.35rem;
+  border-width: 1px;
+  border-color: rgba(0, 53, 57, 0.796);
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px #008c96;
+
+}
+
+.contact_more_button {
+  font-size: 13px;
+  width: 90px;
+  white-space: nowrap;
+  transition: 0.4s;
+  color: #000000;
+  background: linear-gradient(to right, #005f2c, #00b554);
+  padding: 5px;
+  border-radius: 0.35rem;
+  border-width: 1px;
+  border-color: #003519;
+}
+
+.contact_more_button:hover {
+  color: #ffffff;
+  transition: 0.4s;
+  background-color: #007034;
+  border-color: #003519;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px #007034;
+
+}
+
+
+
+.learn_more_button p {
+  font-size: 10px;
+  white-space: nowrap;
+  margin: 0;
+}
+
+
+.lower_div {
+  width: 100vw;
+
+  margin: 10px;
+  margin-top: 4vh;
+
+}
+
+.promo_messages {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promo_message1 p {
+  font-weight: 700;
+  font-size: 12px;
+  color: #c1c1c1;
+  background-color: #1f1f1f;
+  background-size: cover;
+  width: max-content;
+  padding: 15px;
+  border-radius: 0.35rem;
+  transition: 0.7s;
+  background-position: center;
+  background-size: 90%;
+
+}
+
+.promo_message1 p:hover {
+  color: #ffffff;
+  transition: 0.7s;
+  transform: scale(1.007);
+}
+
+.promo_message2 {
+  font-size: 12px;
+  margin-bottom: -7vh;
+  margin-top: 1vh;
+  font-weight: 700;
+  color: #bbbbbb;
+  background-color: #1f1f1f;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 0.35rem;
+  transition: 0.4s;
+
+
+}
+
+.promo_message2:hover {
+  transform: scale(1.007);
+  color: #47d400;
+  transition: 0.4s;
+}
+
+.tables {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-left: 10vw;
+  padding-right: 10vw;
+
+}
+
+
+.div1,
+.div2,
+.div3 {
+  width:100%; /* Adjust the width as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px; /* Adjust the margin as needed */
+  margin-right: 5px; /* Adjust the margin as needed */
+}
+
+
+.static_sites_title {
+  margin-top: 2vh;
+  font-size: 15px;
+  font-weight: 700;
+  transition: 0.5s;
+  color: #ffffff;
+
+}
+
+.static_sites_title:hover {
+  transition: 0.5s;
+  color: orange;
+
+}
+
+.static_sites_list {
+  border-radius: 0.35rem;
+  border-color: orange;
+  border-width: 1px;
+  margin-left: 0vw;
+  margin-right: 0vw;
+  padding: 10px;
+  background-color: #f3f3f3;
+  background-image: url("https://i.pinimg.com/originals/c2/82/f2/c282f246e497956d93bbf5413abcd496.jpg");
+  background-size: cover;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 5vh;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+}
+
+.static_sites_list li {
+  background-color: #a0a0a04f;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  padding: 5px;
+  border-radius: 0.35rem;
+  color: #f2f2f2;
+}
+
+.static_sites_list li:hover {
+  transform: scale(0.99);
+  color: #00eb89;
+}
+
+
+.static_sites_list:hover {
+  transition: 0.4s;
+  transform: scale(0.99);
+  border-color:orange;
+  box-shadow: 0px 0px 10px #000000;
+}
+
+.dynamic_sites_title {
+  margin-top: 2vh;
+  font-size: 15px;
+  font-weight: 700;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.dynamic_sites_title:hover {
+  color: rgb(0, 231, 231);
+
+  transition: 0.5s;
+
+}
+
+.dynamic_sites_list {
+  border-radius: 0.35rem;
+  border-color: rgb(0, 218, 218);
+  border-width: 1px;  padding: 10px;
+  background-color: #f3f3f3;
+  background-image: url("https://wallpapercave.com/wp/wp9016418.jpg");
+  background-size: cover;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 5vh;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+}
+
+.dynamic_sites_list li {
+  background-color: #a0a0a04f;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  padding: 5px;
+  border-radius: 0.35rem;
+  color: #f2f2f2;
+}
+
+.dynamic_sites_list li:hover {
+  transform: scale(0.99);
+  color: #00eb89;
+}
+
+
+.dynamic_sites_list:hover {
+  transition: 0.4s;
+  transform: scale(0.99);
+  border-color: rgb(0, 225, 225);
+  box-shadow: 0px 0px 10px #000000;
+}
+
+.ecommerce_sites_title {
+  margin-top: 2vh;
+  font-size: 15px;
+  font-weight: 700;
+  transition: 0.5s;
+  color: #ffffff;
+
+}
+
+.ecommerce_sites_title:hover {
+  color: rgb(0, 207, 0);
+  transition: 0.5s;
+  
+}
+
+.ecommerce_sites_list {
+  border-radius: 0.35rem;
+  border-color: rgb(0, 236, 27);
+  border-width: 1px;
+    margin-left: 1vw;
+  margin-right: 1vw;
+  padding: 10px;
+  background-color: #f3f3f3;
+  background-image: url("http://wallup.net/wp-content/uploads/2016/03/12/317219-photography-lion-animals.jpg");
+  background-size: cover;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 5vh;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+}
+
+.ecommerce_sites_list li {
+  background-color: #a0a0a04f;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  padding: 5px;
+  border-radius: 0.35rem;
+  color: #f2f2f2;
+}
+
+.ecommerce_sites_list li:hover {
+  transform: scale(0.99);
+  color: #00eb89;
+  border-color: rgba(0, 0, 0, 0.342);
+  box-shadow: 0px 0px 10px #000000;
+}
+
+.ecommerce_sites_list:hover {
+  transition: 0.4s;
+  transform: scale(0.99);
+  border-color: 00eb89;
+  box-shadow: 0px 0px 10px #000000;
+}
+
+
+
+.staticthumbnail {
+  margin-top: 5vh;
+  border-radius: 5rem;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.342);
+  height: 50%;
+  width: 50%;
+  transition: 0.4s;
+  margin-top: 10vh;
+  
+}
+
+.staticthumbnail:hover {
+  transition: 0.4s;
+  border-color: #ffa200;
+  transform: scale(0.97);
+  border-color: rgba(0, 0, 0, 0.342);
+  box-shadow: 0px 0px 10px #ffffff;
+}
+
+.dynamicthumbnail {
+  margin-top: 5vh;
+  border-radius: 5rem;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.342);
+  height: 50%;
+  width: 50%;
+  transition: 0.4s;
+  margin-top: 10vh;
+
+}
+
+.dynamicthumbnail:hover {
+  transition: 0.4s;
+  border-color: #ffa200;
+  transform: scale(0.97);
+  border-color: rgba(0, 0, 0, 0.342);
+  box-shadow: 0px 0px 10px #ffffff;
+}
+
+.ecommercethumbnail {
+  margin-top: 5vh;
+  border-radius: 5rem;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.342);
+  height: 50%;
+  width: 50%;
+  transition: 0.4s;
+  margin-top: 10vh;
+
+}
+
+.ecommercethumbnail:hover {
+  transition: 0.4s;
+  border-color: #ffa200;
+  transform: scale(0.97);
+  border-color: rgba(0, 0, 0, 0.342);
+  box-shadow: 0px 0px 10px #ffffff;
+}
+
+
+
+@media (min-width: 310px) and (max-width: 540px) {
+  .whole {
+    width: 100vw;
+    background-color: rgb(247, 247, 247);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+  }
+
+  .parent_wrapper {
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 8vh;
+  }
+
+  .tabber p {
+    background-color: rgba(0, 0, 0, 0.419);
+    padding: 1px;
+    border-radius: 0.35rem;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+  }
+
+
+
+  .tabber {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-width: 1px;
+    border-color: rgb(233, 233, 233);
+    border-radius: 0.35rem;
+    background-image: url("https://cdn.wallpapersafari.com/42/78/89WhXU.jpg");
+    transition: 1s;
+    background-color: #898989ba;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1vh;
+  }
+
+  .tabber:hover {
+    background-color: #3b3b3b;
+    background-blend-mode: soft-light;
+    transition: 1s;
+  }
+
+
+  /*
+  .tabber::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(69, 69, 69);
+    z-index: 0;
+    border-radius: inherit;
+  }
+  */
+
+
+
+
+  .body_list {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .logo {
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: rgb(224, 175, 0);
+    transition: 0.4s;
+    margin-bottom: 5vh;
+    margin-top: 1vh;
+  }
+
+  .my_logo {
+    margin-left: -2vw;
+    margin-right: -2vw;
+    transform: scale(0.6);
+  }
+
+  .visualstudio_logo {
+    margin-left: -2vw;
+    margin-right: -2vw;
+    transform: scale(0.6);
+  }
+
+  .photoshop_logo {
+    margin-left: -2vw;
+    margin-right: -2vw;
+    transform: scale(0.6);
+  }
+
+  .soundcloud_logo {
+    margin-left: -2vw;
+    margin-right: -2vw;
+    transform: scale(0.6);
+  }
+
+  .upwork_logo {
+    margin-left: -2vw;
+    margin-right: -2vw;
+    transform: scale(0.6);
+  }
+
+  .prisma_logo {
+    margin-left: -2vw;
+    margin-right: -2vw;
+    transform: scale(0.6);
+  }
+
+
+  .logo:hover {
+    transition: 0.4s;
+    border-color: #ffa200;
+    transform: scale(1.1);
+    border-color: #ffa200;
+    box-shadow: 0px 0px 10px #be7800;
+  }
+
+  .avatar_image {
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    height: 150px;
+    width: 150px;
+    margin-bottom: 2vh;
+    transition: 0.4s;
+  }
+
+  .avatar_image:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px #ffffff;
+  }
+
+
+  .name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .description {
+    color: rgb(233, 233, 233);
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+
+  .description p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .tabber_buttons {
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+  }
+
+
+  .credentials {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    width: 75vw;
+
+  }
+
+  .services_more_button {
+    font-size: 10px;
+    white-space: nowrap;
+    color: #000000;
+    width: 60px;
+    transition: 0.4s;
+    border-radius: 0.85rem;
+    border-width: 1px;
+    border-color: #835300;
+    background: linear-gradient(to right, #865500, #ffa200);
+  }
+
+  .services_more_button:hover {
+    color: #ffffff;
+    background-color: #ffa200;
+    transition: 0.4s;
+    border-color: #613e00;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px #be7800;
+
+
+  }
+
+
+  .prices_more_button {
+    font-size: 10px;
+    width: 100px;
+    white-space: nowrap;
+    transition: 0.4s;
+    color: #000000;
+    width: 60px;
+    background: linear-gradient(to right, #00727a, #00b0bc);
+    border-radius: 0.85rem;
+    border-width: 1px;
+    border-color: #00727a;
+  }
+
+  .prices_more_button:hover {
+    color: #ffffff;
+    transition: 0.4s;
+    background-color: #008c96;
+    border-radius: 0.85rem;
+    border-width: 1px;
+    border-color: rgba(0, 53, 57, 0.796);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px #008c96;
+
+  }
+
+  .contact_more_button {
+    font-size: 10px;
+    white-space: nowrap;
+    width: 100px;
+    transition: 0.4s;
+    color: #000000;
+    width: 60px;
+    background: linear-gradient(to right, #005f2c, #00b554);
+    border-radius: 0.85rem;
+    border-width: 1px;
+    border-color: #003519;
+  }
+
+  .contact_more_button:hover {
+    color: #ffffff;
+    transition: 0.4s;
+    background-color: #007034;
+    border-color: #003519;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px #007034;
+
+  }
+
+
+
+  .learn_more_button p {
+    font-size: 10px;
+    white-space: nowrap;
+    margin: 0;
+  }
+
+
+  .lower_div {
+    width: 100vw;
+    margin: 10px;
+    margin-top: 4vh;
+
+  }
+
+  .promo_messages {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .promo_message1 p {
+    font-weight: 700;
+    font-size: 12px;
+    color: #c1c1c1;
+    background-color: #1f1f1f;
+    background-size: cover;
+    width: max-content;
+    padding: 15px;
+    border-radius: 0.35rem;
+    transition: 0.7s;
+    background-position: center;
+    background-size: 90%;
+
+  }
+
+  .promo_message1 p:hover {
+    color: #ffffff;
+    transition: 0.7s;
+    transform: scale(1.007);
+  }
+
+  .promo_message2 {
+    font-size: 9px;
+    margin-bottom: -10vh;
+    margin-top: 1vh;
+    font-weight: 700;
+    color: #bbbbbb;
+    background-color: #1f1f1f;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 0.35rem;
+    transition: 0.4s;
+
+
+  }
+
+  .promo_message2:hover {
+    transform: scale(1.007);
+    color: #47d400;
+    transition: 0.4s;
+  }
+
+  .tables {
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div1 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div3 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .static_sites_title {
+    margin-top: 2vh;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+
+  .static_sites_title:hover {
+    transition: 0.5s;
+  }
+
+  .static_sites_list {
+    border-radius: 0.35rem;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-color: #f3f3f3;
+    background-image: url("https://i.pinimg.com/originals/c2/82/f2/c282f246e497956d93bbf5413abcd496.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5vh;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+  }
+
+  .static_sites_list li {
+    background-color: #a0a0a04f;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    padding: 5px;
+    border-radius: 0.35rem;
+    color: #f2f2f2;
+  }
+
+  .static_sites_list li:hover {
+    transform: scale(0.99);
+    color: #00eb89;
+  }
+
+
+  .static_sites_list:hover {
+    transition: 0.4s;
+    transform: scale(0.99);
+    border-color: rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 0px 10px #000000;
+  }
+
+  .dynamic_sites_title {
+    margin-top: 2vh;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+
+  .dynamic_sites_title:hover {
+    transition: 0.5s;
+
+  }
+
+  .dynamic_sites_list {
+    border-radius: 0.35rem;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 10px;
+    background-color: #f3f3f3;
+    background-image: url("https://wallpapercave.com/wp/wp9016418.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5vh;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+  }
+
+  .dynamic_sites_list li {
+    background-color: #a0a0a04f;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    padding: 5px;
+    border-radius: 0.35rem;
+    color: #f2f2f2;
+  }
+
+  .dynamic_sites_list li:hover {
+    transform: scale(0.99);
+    color: #00eb89;
+  }
+
+
+  .dynamic_sites_list:hover {
+    transition: 0.4s;
+    transform: scale(0.99);
+    border-color: rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 0px 10px #000000;
+  }
+
+  .ecommerce_sites_title {
+    margin-top: 2vh;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+
+  .ecommerce_sites_title:hover {
+    transition: 0.5s;
+  }
+
+  .ecommerce_sites_list {
+    border-radius: 0.35rem;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 10px;
+    background-color: #f3f3f3;
+    background-image: url("http://wallup.net/wp-content/uploads/2016/03/12/317219-photography-lion-animals.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5vh;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+  }
+
+  .ecommerce_sites_list li {
+    background-color: #a0a0a04f;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    padding: 5px;
+    border-radius: 0.35rem;
+    color: #f2f2f2;
+  }
+
+  .ecommerce_sites_list li:hover {
+    transform: scale(0.99);
+    color: #00eb89;
+  }
+
+
+
+  .ecommerce_sites_list:hover {
+    transition: 0.4s;
+    transform: scale(0.99);
+    border-color: rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 0px 10px #000000;
+  }
+
+  .staticthumbnail {
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.342);
+    height: 150px;
+    width: max-content;
+    transition: 0.4s;
+  }
+
+  .staticthumbnail:hover {
+    transition: 0.4s;
+    border-color: #ffa200;
+    transform: scale(0.97);
+    border-color: rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 0px 10px #ffffff;
+  }
+
+  .dynamicthumbnail {
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.342);
+    height: 150px;
+    width: max-content;
+    transition: 0.4s;
+    margin-top: 10vh;
+
+  }
+
+  .dynamicthumbnail:hover {
+    transition: 0.4s;
+    border-color: #ffa200;
+    transform: scale(0.97);
+    border-color: rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 0px 10px #ffffff;
+  }
+
+  .ecommercethumbnail {
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.342);
+    height: 150px;
+    width: max-content;
+    transition: 0.4s;
+    margin-top: 10vh;
+  }
+
+  .ecommercethumbnail:hover {
+    transition: 0.4s;
+    border-color: #ffa200;
+    transform: scale(0.97);
+    border-color: rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 0px 10px #ffffff;
+  }
+
+
+}
+
+
+
+@media (min-width: 541px) and (max-width: 640px) {
+  .whole {
+    width: 100vw;
+    background-color: rgb(247, 247, 247);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+  }
+
+  .parent_wrapper {
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 8vh;
+  }
+
+  .tabber p {
+    background-color: rgba(0, 0, 0, 0.419);
+    padding: 1px;
+    border-radius: 0.35rem;
+    padding-top: 1ch;
+    padding-bottom: 1ch;
+
+  }
+
+  .tabber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-width: 1px;
+    border-color: rgb(233, 233, 233);
+    border-radius: 0.35rem;
+    padding: 20vw;
+    background-color: #3b3b3bde;
+    background-image: url("https://cdn.wallpapersafari.com/42/78/89WhXU.jpg");
+    background-position: center top 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 1s;
+
+  }
+
+  .tabber:hover {
+    background-color: #3b3b3b;
+    background-blend-mode: soft-light;
+    transition: 1s;
+  }
+
+
+  /*
+  .tabber::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(69, 69, 69);
+    z-index: 0;
+    border-radius: inherit;
+  }
+  */
+
+
+  .tabber {
+    background-color: #898989ba;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1vh;
+  }
+
+
+  .body_list {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .logo {
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: rgb(224, 175, 0);
+    height: 50px;
+    width: 50px;
+    transition: 0.4s;
+    margin-bottom: 5vh;
+    margin-top: 1vh;
+  }
+
+  .my_logo {
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+
+  .visualstudio_logo {
+    margin-left: 0vw;
+    margin-right: 0vw;
+    height: 100%;
+    width: 100%;
+  }
+
+  .photoshop_logo {
+    margin-left: 0vw;
+    margin-right: 0vw;
+    height: 100%;
+    width: 100%;
+  }
+
+  .soundcloud_logo {
+    margin-left: 0vw;
+    margin-right: 0vw;
+    height: 100%;
+    width: 100%;
+  }
+
+  .upwork_logo {
+    margin-left: 0vw;
+    margin-right: 0vw;
+    height: 100%;
+    width: 100%;
+  }
+
+  .prisma_logo {
+    margin-left: 0vw;
+    margin-right: 0vw;
+    height: 100%;
+    width: 100%;
+  }
+
+
+  .logo:hover {
+    transition: 0.4s;
+    border-color: #ffa200;
+    transform: scale(1.1);
+    border-color: #ffa200;
+    box-shadow: 0px 0px 10px #be7800;
+  }
+
+  .avatar_image {
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    height: 150px;
+    width: 150px;
+    margin-bottom: 2vh;
+    transition: 0.4s;
+  }
+
+  .avatar_image:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px #ffffff;
+  }
+
+
+  .name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .description {
+    color: rgb(233, 233, 233);
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+
+  .description p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .tabber_buttons {
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+  }
+
+
+  .credentials {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    width: 75vw;
+
+  }
+
+  .services_more_button {
+    white-space: nowrap;
+    color: #000000;
+    width: 100px;
+    transition: 0.4s;
+    padding: 5px;
+    border-radius: 0.35rem;
+    border-width: 1px;
+    border-color: #835300;
+    background: linear-gradient(to right, #865500, #ffa200);
+  }
+
+  .services_more_button:hover {
+    color: #ffffff;
+    background-color: #ffa200;
+    transition: 0.4s;
+    border-color: #613e00;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px #be7800;
+
+
+  }
+
+
+  .prices_more_button {
+    width: 100px;
+    white-space: nowrap;
+    transition: 0.4s;
+    color: #000000;
+    background: linear-gradient(to right, #00727a, #00b0bc);
+    padding: 5px;
+    border-radius: 0.35rem;
+    border-width: 1px;
+    border-color: #00727a;
+  }
+
+  .prices_more_button:hover {
+    color: #ffffff;
+    transition: 0.4s;
+    background-color: #008c96;
+    border-radius: 0.35rem;
+    border-width: 1px;
+    border-color: rgba(0, 53, 57, 0.796);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px #008c96;
+
+  }
+
+  .contact_more_button {
+    white-space: nowrap;
+    width: 100px;
+    transition: 0.4s;
+    color: #000000;
+    background: linear-gradient(to right, #005f2c, #00b554);
+    padding: 5px;
+    border-radius: 0.35rem;
+    border-width: 1px;
+    border-color: #003519;
+  }
+
+  .contact_more_button:hover {
+    color: #ffffff;
+    transition: 0.4s;
+    background-color: #007034;
+    border-color: #003519;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px #007034;
+
+  }
+
+
+
+  .learn_more_button p {
+    font-size: 10px;
+    white-space: nowrap;
+    margin: 0;
+  }
+
+
+  .lower_div {
+    width: 100vw;
+
+    margin: 10px;
+    margin-top: 4vh;
+
+  }
+
+  .promo_messages {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .promo_message1 p {
+    font-weight: 700;
+    font-size: 10px;
+    color: #c1c1c1;
+    background-color: #1f1f1f;
+    background-size: cover;
+    width: max-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0.35rem;
+    transition: 0.7s;
+    background-position: center;
+    background-size: 90%;
+
+  }
+
+  .promo_message1 p:hover {
+    color: #ffffff;
+    transition: 0.7s;
+    transform: scale(1.007);
+  }
+
+  .promo_message2 {
+    font-size: 9px;
+    margin-bottom: -7vh;
+    margin-top: 1vh;
+    font-weight: 700;
+    color: #bbbbbb;
+    background-color: #1f1f1f;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0.35rem;
+    transition: 0.4s;
+
+
+  }
+
+  .promo_message2:hover {
+    transform: scale(1.007);
+    color: #47d400;
+    transition: 0.4s;
+  }
+
+  .tables {
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+
+  }
+
+  .div2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div3 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .static_sites_title {
+    margin-top: 2vh;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+
+  .static_sites_title:hover {
+    transition: 0.5s;
+  }
+
+  .static_sites_list {
+    border-radius: 0.35rem;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 10px;
+    background-color: #f3f3f3;
+    background-image: url("https://i.pinimg.com/originals/c2/82/f2/c282f246e497956d93bbf5413abcd496.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5vh;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+  }
+
+  .static_sites_list li {
+    background-color: #a0a0a04f;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    padding: 5px;
+    border-radius: 0.35rem;
+    color: #f2f2f2;
+  }
+
+  .static_sites_list li:hover {
+    transform: scale(0.99);
+    color: #00eb89;
+  }
+
+
+  .static_sites_list:hover {
+    transition: 0.4s;
+    transform: scale(0.99);
+    border-color: rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 0px 10px #000000;
+  }
+
+  .dynamic_sites_title {
+    margin-top: 2vh;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+
+  .dynamic_sites_title:hover {
+    transition: 0.5s;
+
+  }
+
+  .dynamic_sites_list {
+    border-radius: 0.35rem;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 10px;
+    background-color: #f3f3f3;
+    background-image: url("https://wallpapercave.com/wp/wp9016418.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5vh;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+  }
+
+  .dynamic_sites_list li {
+    background-color: #a0a0a04f;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    padding: 5px;
+    border-radius: 0.35rem;
+    color: #f2f2f2;
+  }
+
+  .dynamic_sites_list li:hover {
+    transform: scale(0.99);
+    color: #00eb89;
+  }
+
+
+  .dynamic_sites_list:hover {
+    transition: 0.4s;
+    transform: scale(0.99);
+    border-color: rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 0px 10px #000000;
+  }
+
+  .ecommerce_sites_title {
+    margin-top: 2vh;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+
+  .ecommerce_sites_title:hover {
+    transition: 0.5s;
+  }
+
+  .ecommerce_sites_list {
+    border-radius: 0.35rem;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 10px;
+    background-color: #f3f3f3;
+    background-image: url("http://wallup.net/wp-content/uploads/2016/03/12/317219-photography-lion-animals.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5vh;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+  }
+
+  .ecommerce_sites_list li {
+    background-color: #a0a0a04f;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    padding: 5px;
+    border-radius: 0.35rem;
+    color: #f2f2f2;
+  }
+
+  .ecommerce_sites_list li:hover {
+    transform: scale(0.99);
+    color: #00eb89;
+  }
+
+
+
+  .ecommerce_sites_list:hover {
+    transition: 0.4s;
+    transform: scale(0.99);
+    border-color: rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 0px 10px #000000;
+  }
+
+  .staticthumbnail {
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.342);
+    height: 150px;
+    width: max-content;
+    transition: 0.4s;
+    margin-top: 1vh;
+
+  }
+
+  .staticthumbnail:hover {
+    transition: 0.4s;
+    border-color: #ffa200;
+    transform: scale(0.97);
+    border-color: rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 0px 10px #ffffff;
+  }
+
+  .dynamicthumbnail {
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.342);
+    height: 150px;
+    width: max-content;
+    transition: 0.4s;
+    margin-top: 10vh;
+
+  }
+
+  .dynamicthumbnail:hover {
+    transition: 0.4s;
+    border-color: #ffa200;
+    transform: scale(0.97);
+    border-color: rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 0px 10px #ffffff;
+  }
+
+  .ecommercethumbnail {
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.342);
+    height: 150px;
+    width: max-content;
+    transition: 0.4s;
+    margin-top: 10vh;
+
+  }
+
+  .ecommercethumbnail:hover {
+    transition: 0.4s;
+    border-color: #ffa200;
+    transform: scale(0.97);
+    border-color: rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 0px 10px #ffffff;
+  }
+
+}

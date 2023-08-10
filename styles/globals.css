@@ -2,17 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+
+    --actionable-item: #18a0fb;
+
+    
+    --hero-h-1: 400 56px/80px "Montserrat", sans-serif;
+    --sub-page-h-1: 400 48px/72px "Montserrat", sans-serif;
+    --body-h-4: 700 24px/36px "Montserrat", sans-serif;
+    --body-p: 400 18px/30px "Montserrat", sans-serif;
+    --body-p-small: 400 14px/22px "Montserrat", sans-serif;
+    --body-text-cta-btn: 700 18px/30px "Montserrat", sans-serif;
+    --body-p-large: 400 36px/50px "Montserrat", sans-serif;
+  
   }
 }
 
@@ -25,3 +30,22 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --actionable-item: #18a0fb;
+
+  /* Fonts */
+  --hero-h-1: 400 56px/80px "Montserrat", sans-serif;
+  --sub-page-h-1: 400 48px/72px "Montserrat", sans-serif;
+  --body-h-4: 700 24px/36px "Montserrat", sans-serif;
+  --body-p: 400 18px/30px "Montserrat", sans-serif;
+  --body-p-small: 400 14px/22px "Montserrat", sans-serif;
+  --body-text-cta-btn: 700 18px/30px "Montserrat", sans-serif;
+  --body-p-large: 400 36px/50px "Montserrat", sans-serif;
+
+  /* Effects */
+}
+
